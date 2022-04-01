@@ -1,0 +1,8 @@
+.env
+.env.*
+node_modules
+hardhat.config.js
+test
+artifacts
+.vscode
+cache

@@ -1,0 +1,64 @@
+{
+  "name": "minting",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@openzeppelin/contracts": "4.1.0",
+    "dotenv": "^10.0.0",
+    "ethers": "^5.5.1",
+    "path-browserify": "^1.0.1",
+    "react": "16.13.1",
+    "react-content-loader": "^6.0.3",
+    "react-copy-to-clipboard": "^5.0.4",
+    "react-dom": "16.13.1",
+    "react-loading": "^2.0.3",
+    "react-loading-skeleton": "^2.2.0",
+    "react-notifications": "^1.7.3",
+    "react-qrcode-logo": "^2.5.0",
+    "react-redux": "^7.2.6",
+    "react-router-dom": "^5.3.0",
+    "react-scripts": "4.0.3",
+    "react-scroll-section": "^3.1.0",
+    "react-toastify": "^8.2.0",
+    "recharts": "^2.1.8",
+    "sass": "^1.49.9",
+    "snippets": "0.0.6",
+    "styled-components": "^5.3.3",
+    "use-wallet": "^0.9.0",
+    "web-vitals": "^1.0.1"
+  },
+  "devDependencies": {
+    "@nomiclabs/hardhat-ethers": "^2.0.2",
+    "@nomiclabs/hardhat-etherscan": "^2.1.5",
+    "@nomiclabs/hardhat-waffle": "^2.0.1",
+    "ethereum-waffle": "^3.4.0",
+    "hardhat": "^2.9.2",
+    "hardhat-deploy": "^0.9.3"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject",
+    "deploy-test": "npx hardhat run --network rinkeby scripts/deploy.js",
+    "deploy": "npx hardhat run --network eth scripts/deploy.js"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
